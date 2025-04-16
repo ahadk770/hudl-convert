@@ -1,0 +1,36 @@
+.sectionTitle {
+  font-family: "georgia";
+  text-align: center;
+  color: #e6f2ff;
+  font-size: medium;
+}
+
+.extensionTitleSubTitle {
+  font-family: "georgia";
+  text-align: center;
+  color: #009ce3;
+}
+
+.extensionTitle {
+  font-family: "georgia";
+  font-weight: bold;
+  text-align: center;
+  color: #ff6300;
+}
+
+/* .text {
+  font-family: "georgia";
+  text-align: center;
+  color: #e6f2ff;
+  font-size: small;
+} */
+
+.savedTeamTitle {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 15rem;
+  text-align: center;
+}

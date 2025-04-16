@@ -1,0 +1,73 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="/styles/styles.css" />
+    <link rel="stylesheet" type="text/css" href="/styles/text.css" />
+    <link rel="stylesheet" type="text/css" href="/styles/input.css" />
+    <link rel="stylesheet" type="text/css" href="/styles/button.css" />
+  </head>
+  <body>
+    <div class="extensionContainer">
+      <h1 class="extensionTitle">Hudl Convert</h1>
+      <div class="extensionTitleSubTitle">
+        <h2>V3 to Performance-Core</h2>
+        <p>
+          Quickly convert from the VSPA to Performance-Core. You must be in the
+          VSPA (V3 Video Player) for the button to enable
+        </p>
+      </div>
+
+      <div id="branch-input-helper-text" hidden>
+        <p class="">Enter the information to open up Performance-Core&trade;</p>
+        <input
+          id="branch-input"
+          class="input"
+          placeholder="Branch Name"
+          hidden
+        />
+        <input
+          id="video-id-input"
+          class="input"
+          placeholder="Video Id"
+          hidden
+        />
+      </div>
+      <hr />
+      <div>
+        <p class="sectionTitle">Enter Team Id</p>
+        <div class="teamIdContainer">
+          <input id="teamIdInput" class="input" placeholder="Enter Team Id" />
+          <button id="submit" class="transportToPerfCoreButton" disabled>
+            Take Me to Performance Core&trade;
+          </button>
+        </div>
+      </div>
+      <hr id="savedTeamsTitleBar" hidden />
+      <div>
+        <p id="savedTeamsTitle" class="sectionTitle" hidden>
+          List of Saved Team Ids
+        </p>
+        <div id="savedTeamsContainer" class="savedTeamsContainer"></div>
+      </div>
+      <hr />
+      <div>
+        <p class="sectionTitle">Save a Team Id</p>
+        <div class="saveTeamInputContainer">
+          <input
+            class="input"
+            id="createTeamNameInput"
+            placeholder="Enter Team Nickname"
+          />
+          <input
+            id="createTeamIdInput"
+            class="input"
+            placeholder="Enter Team Id"
+          />
+          <button id="createTeamButton" class="saveTeamButton">
+            Save Team
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>

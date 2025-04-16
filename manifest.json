@@ -1,0 +1,11 @@
+{
+  "name": "Hudl Convert",
+  "description": "Convert VSPA to Perf-Core",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "hudl_convert.html",
+    "default_icon": "hudl.png"
+  },
+  "permissions": ["tabs", "storage"]
+}
